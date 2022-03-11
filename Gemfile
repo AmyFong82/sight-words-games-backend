@@ -9,7 +9,7 @@ gem 'rails', '~> 6.1.3'
 # gem 'sqlite3', '~> 1.4'
 
 # sqlite3 is good for development use, but not intended as a production grade database. Use PostgreSQL instead.
-gem 'pg'
+gem 'pg', '~> 1.3', '>= 1.3.4'
 
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
